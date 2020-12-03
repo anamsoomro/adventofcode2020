@@ -30,7 +30,7 @@ function validByUsage(min_chars, max_chars, char, password){
             } else { 
                 valid = false
             }
-            // add a break to not check rest chars if hits max_chars
+            // add break to not check rest chars if hits max_chars
         } 
     }
     return valid
